@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="mybutton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="textAllCaps">false</item>
+        <item name="android:fontFamily">@font/ifood_rc_textos_regular</item>
+    </style>
+
+    <style name="myfoodTvstyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/ifood_rc_titulos_medium</item>
+    </style>
+
+    <style name="tablayouttextappearance" parent="Widget.Design.TabLayout">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+ </resources>
