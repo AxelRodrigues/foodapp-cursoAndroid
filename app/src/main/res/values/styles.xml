@@ -13,4 +13,9 @@
         <item name="textAllCaps">false</item>
         <item name="android:textSize">15sp</item>
     </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor" >@color/red</item>
+        <item name="android:windowBackground">@color/red</item>
+    </style>
  </resources>

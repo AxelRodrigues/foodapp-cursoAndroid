@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.119" />
         <entry key="app/src/main/res/font/neovix.xml" value="0.13518518518518519" />
         <entry key="app/src/main/res/font/shrikhand.xml" value="0.13518518518518519" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.20364583333333333" />
         <entry key="app/src/main/res/layout/fragment_restaurant.xml" value="0.22" />
       </map>
     </option>

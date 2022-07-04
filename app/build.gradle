@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
-
+def lottieVersion = "3.4.0"
 android {
     compileSdk 32
 
@@ -18,8 +18,15 @@ android {
 
     buildTypes {
         release {
+            buildConfigField "string", "URL_BASE", "http://localhost:3030/hml"
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        hml{
+            buildConfigField "string", "URL_BASE", "http://localhost:3030/hml"
+        }
+        dev{
+            buildConfigField "string", "URL_BASE", "http://localhost:3030/hml"
         }
     }
     compileOptions {
@@ -35,6 +42,8 @@ android {
 }
 
 dependencies {
+
+    implementation "com.airbnb.android:lottie:$lottieVersion"
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'
